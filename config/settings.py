@@ -191,3 +191,7 @@ except ImportError:
 
 if not DEBUG:
     SECRET_KEY = os.environ['SECRET_KEY']
+    STRIPE_API_SECRET_KEY = os.environ['STRIPE_API_SECRET_KEY']
+    MY_URL = os.environ['MY_URL']
+
+    
