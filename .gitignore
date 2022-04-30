@@ -1,0 +1,6 @@
+__pyache__
+staticfiles
+db.sqlite3
+secrets
+local_settings.py
+*.py[co]
