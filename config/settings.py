@@ -36,7 +36,7 @@ env.read_env(root('.env.dev'))
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = env.bool('DEBUG')
  
-ALLOWED_HOSTS = env.list('ALLOWED_HOSTS')
+# ALLOWED_HOSTS = env.list('ALLOWED_HOSTS')
  
  
 # Application definition
